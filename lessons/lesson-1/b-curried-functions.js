@@ -10,3 +10,7 @@ const plus1 = (a, b) => a + b;
 // Function `plus2` is curried.
 const plus2 = (a) => (b) => a + b;
 
+const addOne = plus2(1);
+const addPi = plus(Math.PI);
+
+
